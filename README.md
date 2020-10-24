@@ -58,6 +58,8 @@
     <img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/jlongster/prettier.svg?style=flat-square"></a>
   <a href="https://twitter.com/PrettierCode">
     <img alt="Follow Prettier on Twitter" src="https://img.shields.io/twitter/follow/prettiercode.svg?label=follow+prettier&style=flat-square"></a>
+  <a href="https://gitpod.io/from-referrer/">
+    <img alt="Gitpod Ready-to-Code" src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square"></a>
 </p>
 
 ## Intro

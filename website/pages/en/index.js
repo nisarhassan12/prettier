@@ -60,7 +60,7 @@ const HomeSplash = (props) => {
                 <div className="pluginRowBlock">
                   <Button href="/playground/">Try It Online</Button>&nbsp;
                   <Button href={"/docs/" + props.language + "/install.html"}>
-                    Install Prettier
+                    Install Prettier!!!!
                   </Button>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const TldrSection = ({ language }) => (
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h2>What is Prettier?</h2>
           <ul style={{ flex: "1" }}>
-            <li>An opinionated code formatter</li>
+            <li>An opinionated code ----- formatter!</li>
             <li>Supports many languages</li>
             <li>Integrates with most editors</li>
             <li>Has few options</li>
@@ -234,7 +234,7 @@ const EditorSupportSection = () => (
         href={`${siteConfig.githubUrl}/edit/master/website/data/editors.yml`}
         className="button"
       >
-        Send a PR
+        Send a PR!!!!
       </a>
     </div>
   </div>

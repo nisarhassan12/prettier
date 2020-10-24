@@ -1,0 +1,21 @@
+tasks:
+  - init: |
+      yarn install
+      gp sync-done boot
+      yarn build
+
+  - name: Website
+    before: cd website
+    init: |
+      gp sync-await boot
+      yarn install
+    command: yarn start
+    openMode: split-right
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode@5.7.1:GDba64T6G+TUi1qmc6BE3A==
